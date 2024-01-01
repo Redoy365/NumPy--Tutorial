@@ -1,6 +1,5 @@
 import numpy as np
 
-arr = np.array([1, 2, 3, 4], ndmin=5)
+arr = np.array([1, 2, 3, 4])
 
-print(arr)
-print('number of dimensions :', arr.ndim)
+print(arr[0])
