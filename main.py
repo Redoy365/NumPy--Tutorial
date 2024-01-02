@@ -1,6 +1,8 @@
 import numpy as np
 
-arr = np.array([1, 2, 3, 4], dtype='S')
+arr = np.array([1, 0, 3])
 
-print(arr)
-print(arr.dtype)
+newarr = arr.astype(bool)
+
+print(newarr)
+print(newarr.dtype)
