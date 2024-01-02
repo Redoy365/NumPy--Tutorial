@@ -1,5 +1,7 @@
 from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-x = random.poisson(lam=2, size=10)
+sns.distplot(random.poisson(lam=2, size=1000), kde=True, hist=True)
 
-print(x)
+plt.show()
