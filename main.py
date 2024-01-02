@@ -1,7 +1,5 @@
 import numpy as np
 
-arr = np.array([6, 7, 8, 9])
+arr = np.array([3, 2, 0, 1])
 
-x = np.searchsorted(arr, 7)
-
-print(x)
+print(np.sort(arr))
