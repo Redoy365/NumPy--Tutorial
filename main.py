@@ -1,6 +1,6 @@
-from numpy import random
-import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-arr = np.array([1, 2, 3, 4, 5])
+sns.distplot([0, 1, 2, 3, 4, 5])
 
-print(random.permutation(arr))
+plt.show()
