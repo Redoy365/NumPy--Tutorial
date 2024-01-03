@@ -1,5 +1,7 @@
 import numpy as np
 
-x = np.arcsin(1.0)
+arr = np.array([1, -1, 0.1])
+
+x = np.arcsin(arr)
 
 print(x)
