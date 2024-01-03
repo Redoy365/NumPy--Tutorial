@@ -1,5 +1,7 @@
 import numpy as np
 
-x = np.sinh(np.pi/2)
+arr = np.array([0.1, 0.2, 0.5])
+
+x = np.arctanh(arr)
 
 print(x)
