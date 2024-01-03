@@ -1,5 +1,6 @@
+from math import log
 import numpy as np
 
-arr = np.arange(1, 10)
+nplog = np.frompyfunc(log, 2, 1)
 
-print(np.log(arr))
+print(nplog(100, 15))
