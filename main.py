@@ -1,7 +1,7 @@
 import numpy as np
 
-arr = np.array([1, 2, 3, 4])
+arr = np.array([5, 6, 7, 8])
 
-x = np.prod(arr)
+newarr = np.cumprod(arr)
 
-print(x)
+print(newarr)
