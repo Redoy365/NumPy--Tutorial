@@ -1,8 +1,7 @@
-from numpy import random
-import matplotlib.pyplot as plt
-import seaborn as sns
+x = [1, 2, 3, 4]
+y = [4, 5, 6, 7]
+z = []
 
-x = random.zipf(a=2, size=1000)
-sns.distplot(x[x<10], kde=False)
-
-plt.show()
+for i, j in zip(x, y):
+  z.append(i + j)
+print(z)
