@@ -1,7 +1,5 @@
 from numpy import random
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-sns.distplot(random.chisquare(df=1, size=1000), hist=False)
+x = random.rayleigh(scale=2, size=(2, 3))
 
-plt.show()
+print(x)
