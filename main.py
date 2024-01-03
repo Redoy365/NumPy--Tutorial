@@ -1,7 +1,7 @@
 import numpy as np
 
-arr = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])
+arr = np.array([90, 180, 270, 360])
 
-x = np.sin(arr)
+x = np.deg2rad(arr)
 
 print(x)
