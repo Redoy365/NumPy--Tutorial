@@ -1,6 +1,7 @@
-from math import log
 import numpy as np
 
-nplog = np.frompyfunc(log, 2, 1)
+arr = np.array([1, 2, 3])
 
-print(nplog(100, 15))
+newarr = np.cumsum(arr)
+
+print(newarr)
