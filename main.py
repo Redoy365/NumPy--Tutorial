@@ -1,7 +1,8 @@
 import numpy as np
 
-arr = np.array([10, 15, 25, 5])
+num1 = 4
+num2 = 6
 
-newarr = np.diff(arr, n=2)
+x = np.lcm(num1, num2)
 
-print(newarr)
+print(x)
