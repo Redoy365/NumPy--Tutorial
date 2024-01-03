@@ -1,5 +1,5 @@
 from numpy import random
 
-x = random.multinomial(n=6, pvals=[1/6, 1/6, 1/6, 1/6, 1/6, 1/6])
+x = random.exponential(scale=2, size=(2, 3))
 
 print(x)
