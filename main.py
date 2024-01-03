@@ -1,8 +1,8 @@
 import numpy as np
 
-num1 = 4
-num2 = 6
+num1 = 6
+num2 = 9
 
-x = np.lcm(num1, num2)
+x = np.gcd(num1, num2)
 
 print(x)
