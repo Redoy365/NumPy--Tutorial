@@ -1,5 +1,5 @@
 import numpy as np
 
-arr = np.fix([-3.1666, 3.6667])
+arr = np.around(3.1666, 2)
 
 print(arr)
