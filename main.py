@@ -1,7 +1,5 @@
 from numpy import random
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-sns.distplot(random.pareto(a=2, size=1000), kde=True, color='red')
+x = random.zipf(a=2, size=(2, 3))
 
-plt.show()
+print(x)
