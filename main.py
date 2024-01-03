@@ -1,7 +1,8 @@
 import numpy as np
 
-arr = np.array([1, -1, 0.1])
+base = 3
+perp = 4
 
-x = np.arcsin(arr)
+x = np.hypot(base, perp)
 
 print(x)
