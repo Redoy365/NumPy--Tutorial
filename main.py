@@ -1,7 +1,5 @@
 from numpy import random
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-sns.distplot(random.rayleigh(size=1000), hist=False)
+x = random.pareto(a=2, size=(2, 3))
 
-plt.show()
+print(x)
